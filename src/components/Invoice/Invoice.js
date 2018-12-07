@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import './Invoice.css';
 import DetailsInvoice from './DetailsInvoice/DetailsInvoice';
+import BillInvoice from './BillInvoice/BillInvoice';
+import BalanceInvoice from './BalanceInvoice/BalanceInvoice';
 export class Invoice extends Component {
   render() {
     return (
@@ -18,6 +20,12 @@ export class Invoice extends Component {
             <DetailsInvoice item="Date" data="7/31/18"/>
             <DetailsInvoice item="Due Date" data="7/31/18"/>
             <DetailsInvoice item="Terms" data="Net 0"/>
+          </div>
+          <div className="grid-invoice-bill">
+            <BillInvoice />
+          </div>
+          <div className="grid-invoice-balance">
+            <BalanceInvoice />
           </div>
         </div>
       </div>

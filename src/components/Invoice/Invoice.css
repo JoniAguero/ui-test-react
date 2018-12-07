@@ -20,7 +20,6 @@
     display: grid;
     grid-template-columns: 1fr 800px 1fr;
     grid-template-rows: 45px 1fr;
-    background-color: yellow;
     grid-template-areas: "title title title"
                          "details bill balance";
 }
@@ -28,6 +27,7 @@
 .grid-invoice-title {
     grid-area: title;
     font-weight: bold;
+    font-size: 1em;
     line-height:45px;
     padding-left: 15px;
     background-color: white;
@@ -41,6 +41,24 @@
     padding-left: 20px;
     padding-right: 20px;
     border: 1px solid #eeeeee;
+    border-radius: 2px;
+}
+
+.grid-invoice-bill{
+    grid-area: bill;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #eeeeee;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.grid-invoice-balance {
+    grid-area: balance;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #eeeeee;
+    background-color: white;
     border-radius: 2px;
 }
 

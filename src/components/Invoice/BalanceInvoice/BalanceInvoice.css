@@ -1,0 +1,6 @@
+.container-invoice-balance {
+    display: flex;
+    font-size: 1em;
+    padding-top: 10px;
+    font-weight: bold;
+}
