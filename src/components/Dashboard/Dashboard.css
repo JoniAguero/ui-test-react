@@ -14,17 +14,17 @@
 }
 
 .invoice {
-    margin: 5px 5%;
+    margin: 0px 5%;
     grid-area: invoice;
 }
 
 .diagram {
-    margin: 5px 5%;
+    margin: 0px 5%;
     grid-area: diagram;
-    /* background-color: yellowgreen; */
 }
 
 .overview {
-    margin: 5px 5%;
+    margin: 5%;
+    margin-top: 15px;
     grid-area: overview;
 }

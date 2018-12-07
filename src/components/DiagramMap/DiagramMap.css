@@ -1,0 +1,39 @@
+.diagram-map-container {
+    padding: 4px 7px;
+}
+
+.btn-diagram {
+    border: 1px solid #eeeeee;
+    background-color: none !important;
+    width: 100px;
+    color: #b5b6b8;
+    height: 30px;
+    line-height: 18px;
+}
+
+.btn-map {
+    border: 1px solid #eeeeee;
+    background-color: none!important;
+    width: 60px;
+    color: #b5b6b8;
+    height: 30px;
+    line-height: 18px;
+}
+
+.active {
+    background: white!important;
+}
+
+.diagram-text {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+
+.diagram-container {
+    width: 100%;
+    background-color: royalblue;
+    height: 10px;
+}

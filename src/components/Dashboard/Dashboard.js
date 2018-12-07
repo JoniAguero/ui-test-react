@@ -4,6 +4,7 @@ import Navbar from '../Navbar/Navbar';
 import './Dashboard.css';
 import Invoice from '../Invoice/Invoice';
 import Overview from '../Overview/Overview';
+import DiagramMap from '../DiagramMap/DiagramMap';
 export class Dashboard extends Component {
   render() {
     return (
@@ -16,7 +17,7 @@ export class Dashboard extends Component {
                 <Invoice />
               </div>
               <div className="diagram">
-
+                <DiagramMap />
               </div>
               <div className="overview">
                 <Overview />

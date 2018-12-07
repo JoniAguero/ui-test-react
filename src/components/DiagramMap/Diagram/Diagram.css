@@ -1,0 +1,81 @@
+.container-diagram-stepper{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    border: 2px solid #eeeeee;
+    padding: 1px;
+}
+
+.stepper-steps-isOffset {
+    position: relative;
+    top: -30px;
+    margin: 0 15px -30px 15px;
+}
+
+.stepper-step {
+    float: left;
+    width: 14.28%; /* fixme: only works because there's 3 steps */ 
+    padding: 24px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, .87);
+    position: relative;
+    text-align: center;
+}
+
+.stepper-step:first-child {
+        text-align: left;
+    }
+
+.stepper-step:last-child {
+        text-align: right;
+    }
+
+
+.stepper-step::after {
+        content: '';
+        position: absolute;
+        bottom: 45px;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: #eeeeee;
+    }
+
+.stepper-step:first-child::after {
+        left: 24px;
+    }
+
+.stepper-step:last-child::after {
+        right: 24px;
+    }
+
+.stepper-stepMarker {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: black;
+    line-height: 35px;
+    background-color: white;
+    border: 2px solid #eeeeee;
+    border-radius: 24px;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.stepper-step-isActive .stepper-stepMarker {
+    background-color: #2196F3;
+}
+
+.stepper-step-isValid .stepper-stepMarker {
+    text-indent: -10000px;
+    background-color: #2196F3;
+}
+
+/*  colored block to cover the connector line where needed */
+.stepper-stepContent {
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+}
