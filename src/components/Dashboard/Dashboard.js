@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Navbar from '../Navbar/Navbar';
 
 import './Dashboard.css';
+import Invoice from '../Invoice/Invoice';
 export class Dashboard extends Component {
   render() {
     return (
@@ -11,7 +12,7 @@ export class Dashboard extends Component {
           <div>
             <div className="grid-container">
               <div className="invoice">
-
+                <Invoice />
               </div>
               <div className="diagram">
 
