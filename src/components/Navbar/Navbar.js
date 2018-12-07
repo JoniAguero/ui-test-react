@@ -38,16 +38,16 @@ export class Navbar extends Component {
                 <div className="form-inline my-2 my-lg-0">
                     <div className="btn-group dropleft">
                         <button className="btn btn-sm search">
-                            <i class="fas fa-search"></i>
+                            <i className="fas fa-search"></i>
                         </button>
                         <button className="btn btn-sm question">
-                            <i class="far fa-question-circle"></i>
+                            <i className="far fa-question-circle"></i>
                         </button>
                         <div className="relative">
                             <button className="btn btn-sm bell">
-                                <i class="fas fa-bell"></i>
+                                <i className="fas fa-bell"></i>
                             </button>
-                            <span class="badge badge-danger">2</span>
+                            <span className="badge badge-danger">2</span>
                         </div>
                         <div className="user">
                             

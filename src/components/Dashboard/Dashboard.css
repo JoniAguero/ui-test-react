@@ -1,8 +1,16 @@
+.full-container{
+    width: 100%;
+    min-width: 100%;
+}
 .dashboard-container{
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: #f8fbff;
     border: 1px solid #eeeeee;
+}
+.navbar{
+    width: 100%;
+    height: auto;
 }
 .grid-container {
     width: 100%;
@@ -27,4 +35,39 @@
     margin: 5%;
     margin-top: 15px;
     grid-area: overview;
+}
+
+@media only screen and (max-width: 480px) {
+    .grid-container {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: "invoice""diagram""overview";
+    }
+    .invoice {
+        width: 98%;
+        margin-left: 1%;
+        grid-area: invoice;
+    }
+
+    .diagram {
+        width: 98%;
+        margin-top: 90px;
+        margin-left: 1%;
+        grid-area: diagram;
+    }
+
+    .overview {
+        width: 98%;
+        margin-top: 10px;
+        margin-left: 1%;
+        grid-area: overview;
+    }
+    .navbar {
+        width: 100%;
+        height: auto;
+        font-size: .9em;
+    }
 }

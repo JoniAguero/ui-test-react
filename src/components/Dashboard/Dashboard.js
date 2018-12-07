@@ -8,8 +8,10 @@ import DiagramMap from '../DiagramMap/DiagramMap';
 export class Dashboard extends Component {
   render() {
     return (
-      <div>
-        <Navbar /> 
+      <div className="full-container">
+        <div className="navbar">
+          <Navbar /> 
+        </div>
         <div className="dashboard-container">
           <div>
             <div className="grid-container">

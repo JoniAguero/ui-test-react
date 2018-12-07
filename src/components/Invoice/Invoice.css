@@ -69,3 +69,62 @@
     border-radius: 2px;
 }
 
+@media only screen and (max-width: 480px) {
+    .grid-invoice {
+        width: 100%;
+        height: 185px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "title"
+                             "details"
+                             " bill "
+                             "balance";
+    }
+
+    .grid-invoice-title {
+        margin-left: 1%;
+        width: 99%;
+        grid-area: title;
+        font-weight: bold;
+        background-color: white;
+        border-left: 2px solid #eeeeee;
+        border-right: 2px solid #eeeeee;
+        border-top: 2px solid #eeeeee;
+        border-radius: 2px;
+    }
+
+    .grid-invoice-details {
+        margin-left: 1%;
+        width: 99%;
+        grid-area: details;
+        background-color: white;
+        border-top: 1px solid #eeeeee;
+        border-bottom: 2px solid #eeeeee;
+        border-left: 2px solid #eeeeee;
+        border-radius: 2px;
+    }
+
+    .grid-invoice-bill {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-left: 1%;
+        width: 99%;
+        grid-area: bill;
+        border: 1px solid #eeeeee;
+        border-bottom: 2px solid #eeeeee;
+        background-color: white;
+        border-radius: 2px;
+    }
+
+    .grid-invoice-balance {
+        margin-left: 1%;
+        width: 99%;
+        grid-area: balance;
+        border-top: 1px solid #eeeeee;
+        border-bottom: 2px solid #eeeeee;
+        border-right: 2px solid #eeeeee;
+        background-color: white;
+        border-radius: 2px;
+    }
+}
