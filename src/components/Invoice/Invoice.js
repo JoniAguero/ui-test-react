@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Invoice.css';
+import DetailsInvoice from './DetailsInvoice/DetailsInvoice';
 export class Invoice extends Component {
   render() {
     return (
@@ -13,8 +14,10 @@ export class Invoice extends Component {
             <p>INVOICE - REVISION</p>
           </div>
           <div className="grid-invoice-details">
-            <p className="details-item">Invoice #</p>
-            <p className="details-data">33-0092kk00</p>
+            <DetailsInvoice item="Invoice #" data="33-0092kk00"/>
+            <DetailsInvoice item="Date" data="7/31/18"/>
+            <DetailsInvoice item="Due Date" data="7/31/18"/>
+            <DetailsInvoice item="Terms" data="Net 0"/>
           </div>
         </div>
       </div>

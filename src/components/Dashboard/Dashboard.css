@@ -16,7 +16,6 @@
 .invoice {
     margin: 5px 5%;
     grid-area: invoice;
-    background-color: red;
 }
 
 .diagram {
