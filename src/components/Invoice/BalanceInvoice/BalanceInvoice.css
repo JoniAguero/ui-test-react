@@ -1,6 +1,15 @@
 .container-invoice-balance {
     display: flex;
+    flex-wrap: wrap;
     font-size: 1em;
     padding-top: 10px;
     font-weight: bold;
+}
+.balance-title {
+    display: inline-block;
+}
+.balance-amount {
+    display: inline-block;
+    font-size: 1.1em;
+    color: #ff9900;
 }
