@@ -1,34 +1,20 @@
-.invoice-container {
+.overview-container {
     padding: 4px 7px;
 }
-
-.invoice-title {
-    margin-bottom: 10px;
-}
-
-.title{
-    display: inline;
-}
-
-.span-title{
-    margin-left: 8px;
-}
-
-.grid-invoice {
+.grid-overview {
     width: 100%;
-    height: 185px;
+    height: 190px;
     display: grid;
-    grid-template-columns: 1fr 800px 1fr;
+    grid-template-columns: 45% 55%;
     grid-template-rows: 45px 1fr;
-    grid-template-areas: "title title title"
-                         "details bill balance";
+    grid-template-areas: "title title"
+                          "details1 details2";
 }
-
-.grid-invoice-title {
+.grid-overview-title {
     grid-area: title;
     font-weight: bold;
     font-size: 1em;
-    line-height:45px;
+    line-height: 45px;
     padding-left: 15px;
     background-color: white;
     border-left: 2px solid #eeeeee;
@@ -37,8 +23,8 @@
     border-radius: 2px;
 }
 
-.grid-invoice-details{
-    grid-area: details;
+.grid-overview-details1 {
+    grid-area: details1;
     background-color: white;
     padding-left: 20px;
     padding-right: 20px;
@@ -48,24 +34,14 @@
     border-radius: 2px;
 }
 
-.grid-invoice-bill{
-    grid-area: bill;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 1px solid #eeeeee;
-    border-bottom: 2px solid #eeeeee;
+.grid-overview-details2 {
+    grid-area: details2;
     background-color: white;
-    border-radius: 2px;
-}
-
-.grid-invoice-balance {
-    grid-area: balance;
     padding-left: 20px;
     padding-right: 20px;
     border-top: 1px solid #eeeeee;
     border-bottom: 2px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
     border-right: 2px solid #eeeeee;
-    background-color: white;
     border-radius: 2px;
 }
-

@@ -1,0 +1,31 @@
+.container-overview-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: .8em;
+    padding-top: 5px;
+}
+
+.details-item {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+.details-data {
+    font-weight: bold;
+    display: inline;
+    padding: 0;
+    margin: 2px;
+}
+
+.details-data-active {
+    font-weight: bold;
+    display: inline;
+    padding: 0;
+    margin: 2px;
+    color: #35d684;
+}
+
+.icon {
+    margin-right: 5px;
+}

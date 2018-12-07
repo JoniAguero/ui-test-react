@@ -21,11 +21,10 @@
 .diagram {
     margin: 5px 5%;
     grid-area: diagram;
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
 }
 
 .overview {
     margin: 5px 5%;
     grid-area: overview;
-    /* background-color: yellow; */
 }

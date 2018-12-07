@@ -3,6 +3,7 @@ import Navbar from '../Navbar/Navbar';
 
 import './Dashboard.css';
 import Invoice from '../Invoice/Invoice';
+import Overview from '../Overview/Overview';
 export class Dashboard extends Component {
   render() {
     return (
@@ -18,7 +19,7 @@ export class Dashboard extends Component {
 
               </div>
               <div className="overview">
-
+                <Overview />
               </div>
             </div>
           </div>
