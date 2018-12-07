@@ -1,0 +1,9 @@
+.container-map{
+    width: 100%;
+    height: 100px;
+    background-image: url('https://www.muypymes.com/wp-content/uploads/2018/03/googlemaps-googledevelopers1-660x330.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #eeeeee;
+    padding: 1px;
+}
