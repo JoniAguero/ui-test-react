@@ -9,7 +9,7 @@ export class Invoice extends Component {
       <div className="invoice-container">
         <div className="invoice-title">
             <h4 className="title">Invoice</h4>
-            <span className="span-title" data-toggle="tooltip" data-placement="top" title="Invoice Number">S03834754</span>
+            <span className="span-title" data-toggle="tooltip" data-placement="top" title="Tooltip on top">S03834754</span>
         </div>
         <div className="grid-invoice">
           <div className="grid-invoice-title">
