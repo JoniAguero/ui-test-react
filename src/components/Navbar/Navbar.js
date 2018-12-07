@@ -36,9 +36,24 @@ export class Navbar extends Component {
                     </li>
                 </ul>
                 <div className="form-inline my-2 my-lg-0">
-                    <div className="btn-group">
-                        <button type="button" className="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Action
+                    <div className="btn-group dropleft">
+                        <button className="btn btn-sm search">
+                            <i class="fas fa-search"></i>
+                        </button>
+                        <button className="btn btn-sm question">
+                            <i class="far fa-question-circle"></i>
+                        </button>
+                        <div className="relative">
+                            <button className="btn btn-sm bell">
+                                <i class="fas fa-bell"></i>
+                            </button>
+                            <span class="badge badge-danger">2</span>
+                        </div>
+                        <div className="user">
+                            
+                        </div>
+                        <button type="button" className="btn btn-link dropdown-toggle arrow" data-toggle="dropdown"  aria-expanded="false">
+                            <i className="fas fa-angle-down"></i>
                         </button>
                         <div className="dropdown-menu">
                             <a className="dropdown-item" href="/">Action</a>

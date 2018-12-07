@@ -18,6 +18,82 @@
 }
 
 .navbar {
-    padding-left: 2.5%;
-    padding-right: 2.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.search {
+    font-size: 1.5em;
+    background-color: white;
+    margin-top: -3px;
+    color: #999999;
+}
+
+.question{
+    font-size: 1.5em;
+    background-color: white;
+    margin-top: -3px;
+    color: #999999;
+}
+
+.bell{
+    margin-right: 10px;
+    font-size: 1.5em;
+    background-color: white;
+}
+
+.relative{
+    position: relative;
+    margin-top: 1px;
+}
+
+.badge{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    line-height: 6px;
+    font-size: .6em;
+    position: absolute;
+    top: 12px;
+    left: 21px;   
+    border: 1.5px solid white;
+}
+
+.user:hover {
+    color: inherit;
+}
+
+.fa-circle{
+    margin-right: 5px;
+    font-size: 1.5em;
+}
+
+.dropdown-toggle {
+    color: #eeeeee;
+    font-size: 1.5em;
+}
+.user{
+    margin-top: 5px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #eeeeee;
+    position: relative;
+}
+.user::before {
+    content: 'JS';
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    font-size: 1.2em;
+    color: #999999;
+}
+.user:hover {
+    color: #eeeeee;
+}
+.arrow:hover {
+    color: black;
+}
+.dropdown-toggle::before{
+    content: none!important;
 }
